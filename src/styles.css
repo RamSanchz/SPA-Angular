@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    padding-bottom: 50px;
+}
+
+.menu-fijo {
+    position: sticky !important;
+    z-index: 10;
+    top: 0;
+}
+
+.bg-cont {
+    background-color: #e1e1e1 !important;
+    padding: 20px 0;
+}
+
+.main-container {
+    margin-top: 20px;
+}
+
+.small-hero {
+    font-size: 0.75em;
+}
+
+.active {
+    color: #0d6efd !important;
+}
+
+.img-logo {
+    width: 120px;
+}
+
+
+/* animaciones */
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
